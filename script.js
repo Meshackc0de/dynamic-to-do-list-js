@@ -1,4 +1,4 @@
-// This function must be at the top level so the checker sees it
+
 function loadTasks() {
   const taskList = document.getElementById('task-list');
   const storedTasks = JSON.parse(localStorage.getItem('tasks') || '[]');
